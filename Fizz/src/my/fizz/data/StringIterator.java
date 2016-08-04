@@ -9,6 +9,9 @@ public class StringIterator {
 	public boolean done() {// hasNext() would be better
 		return index >= string.length(); //index ranges from 0 to length() - 1.
 	}
+	public boolean hasNext() {
+		return index < string.length(); //index ranges from 0 to length() - 1.
+	}
 	public char next() {
 		return string.charAt(index++);
 	}
@@ -18,5 +21,5 @@ public class StringIterator {
 	public char peek() {
 		return string.charAt(index);
 	}
-
+	
 }
