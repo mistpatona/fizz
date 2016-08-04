@@ -26,7 +26,7 @@ public class Token {
 	public String toString() {
 		return value;
 	}
-    /* Effectively these are Singletons. 
+    /* 
      * Their numbers do not matter for now. */
 	static Token fizz = new Token("fizz", -3);
 	static Token buzz = new Token("buzz", -5);
